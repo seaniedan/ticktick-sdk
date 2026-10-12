@@ -224,3 +224,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local-only files — never commit or push these (added 2026-07-10).
+# Claude skills nested here by accident, a local pip freeze, and a wrapper
+# script that loads credentials.
+skills/
+requirements.M1freeze.txt
+run-with-secrets.sh
